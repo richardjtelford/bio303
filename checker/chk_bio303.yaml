@@ -1,0 +1,21 @@
+rstudio:
+  recommended: 2022.7.1.554
+  options:
+    save_workspace:
+      value: never
+    load_workspace:
+      value: 'FALSE'
+      message: For reproducibility
+R:
+  recommended: 4.2.1
+  minimum: 4.1.1
+quarto:
+  recommended: 1.2.0
+tidyverse:
+  recommended: '1.3'
+vegan:
+  recommended: 2.6.0
+ggvegan:
+  recommended: 0.1.0
+  message: install with remotes::install_github('gavinsimpson/ggvegan')
+
